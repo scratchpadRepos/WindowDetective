@@ -42,10 +42,13 @@ For x86: run the same commands in "VS2012 x86 Native Tools Command Prompt"
 Clone x86, and x64 code in different directories.<br />
 After "Nmake install", qt binaries will be installed at the path given to "-prefix" parameter during configure.
 
-With x64 binary you would be able to see messages sent to 64 bit applications, which is currently not possible with 32 bit binary.
-The drawback right now is that a single binary cannot be used for logging messages of both 32 bit, and 64 bit processes.
+Add the following environment variables, so that these binaries are found while compiling.
+```
+QTDIRx64=D:\Qt\qtx64_vs2012
+QTDIRx86=D:\Qt\qtx86_vs2012
+```
 
-The binaries are now created in their separate folders, so they need access to files and folders present at their original location.
+The binaries are now created in their separate folders (wrt orignal project on sourceforge), so they need access to files and folders present at their original location.
 
 Eg. in "src\x64\Debug" directory, run the following commands. Do the same for other directories.
 ```
@@ -59,3 +62,18 @@ mklink icudt51.dll ..\..\..\icudt51.dll
 mklink icuin51.dll ..\..\..\icuin51.dll
 mklink icuuc51.dll ..\..\..\icuuc51.dll
 ```
+
+Copy the following binaries. from "c:\qt\qtx64_vs2012\bin" to "src\x64\Debug".
+```
+Qt5Cored.dll
+Qt5Guid.dll
+Qt5Networkd.dll
+Qt5Widgetsd.dll
+Qt5Xmld.dll
+```
+
+Do the same for x86, and release versions. Note that release versions dont have d at the end of file names, debug versions do have. Eg. Qt5Core.dll, and Qt5Cored.dll.
+
+With x64 binary you would be able to see messages sent to 64 bit applications, which is currently not possible with 32 bit binary.
+The drawback right now is that a single binary cannot be used for logging messages of both 32 bit, and 64 bit processes.
+
