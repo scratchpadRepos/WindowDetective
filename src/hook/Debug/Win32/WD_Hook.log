@@ -1,26 +1,26 @@
-﻿Build started 5/16/2020 7:34:29 AM.
-     1>Project "C:\sahil\development\Window-Detective-3.5.1-src\src\hook\WD_Hook.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 11/13/2020 9:01:07 PM.
+     1>Project "D:\sahil\dev\WindowDetective\src\hook\WD_Hook.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WD_HOOK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\WD_Hook_Win32_Debug.pch" /Fo"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\\" /Fd"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WD_HOOK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\WD_Hook_Win32_Debug.pch" /Fo"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\\" /Fd"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WD_HOOK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\\" /Fd"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Hook.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WD_HOOK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\\" /Fd"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Hook.cpp
          Hook.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WD_HOOK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\WD_Hook_Win32_Debug.pch" /Fo"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\\" /Fd"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt RemoteInfo.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WD_HOOK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\WD_Hook_Win32_Debug.pch" /Fo"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\\" /Fd"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt RemoteInfo.cpp
          RemoteInfo.cpp
        ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\version_info.res" version_info.rc 
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\version_info.res" version_info.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\sahil\development\Window-Detective-3.5.1-src\src\\Win32\Debug\WD_Hook_Win32_Debug.dll" /NOLOGO Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\sahil\development\Window-Detective-3.5.1-src\src\hook\Debug\WD_Hook_Win32_Debug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\sahil\development\Window-Detective-3.5.1-src\src\\Win32\Debug\WD_Hook_Win32_Debug.lib" /MACHINE:X86 /SAFESEH /DLL "C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\version_info.res"
-         "C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\Hook.obj"
-         "C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\RemoteInfo.obj"
-         "C:\sahil\development\Window-Detective-3.5.1-src\src\hook\\Debug\Win32\stdafx.obj"
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\sahil\dev\WindowDetective\src\\Win32\Debug\WD_Hook_Win32_Debug.dll" /NOLOGO Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\sahil\dev\WindowDetective\src\hook\Debug\WD_Hook_Win32_Debug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\sahil\dev\WindowDetective\src\\Win32\Debug\WD_Hook_Win32_Debug.lib" /MACHINE:X86 /SAFESEH /DLL D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\version_info.res
+         D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\Hook.obj
+         D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\RemoteInfo.obj
+         D:\sahil\dev\WindowDetective\src\hook\\Debug\Win32\stdafx.obj
      1>Hook.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-            Creating library C:\sahil\development\Window-Detective-3.5.1-src\src\\Win32\Debug\WD_Hook_Win32_Debug.lib and object C:\sahil\development\Window-Detective-3.5.1-src\src\\Win32\Debug\WD_Hook_Win32_Debug.exp
-         WD_Hook.vcxproj -> C:\sahil\development\Window-Detective-3.5.1-src\src\\Win32\Debug\WD_Hook_Win32_Debug.dll
-     1>Done Building Project "C:\sahil\development\Window-Detective-3.5.1-src\src\hook\WD_Hook.vcxproj" (Rebuild target(s)).
+            Creating library D:\sahil\dev\WindowDetective\src\\Win32\Debug\WD_Hook_Win32_Debug.lib and object D:\sahil\dev\WindowDetective\src\\Win32\Debug\WD_Hook_Win32_Debug.exp
+         WD_Hook.vcxproj -> D:\sahil\dev\WindowDetective\src\\Win32\Debug\WD_Hook_Win32_Debug.dll
+     1>Done Building Project "D:\sahil\dev\WindowDetective\src\hook\WD_Hook.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.67
+Time Elapsed 00:00:02.53

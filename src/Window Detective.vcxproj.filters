@@ -557,6 +557,15 @@
     <ClCompile Include="ServerThread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Debug\moc\moc_ServerThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc\moc_RemoteServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc\moc_ServerThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window_detective\Error.h">
@@ -690,12 +699,6 @@
     </ClInclude>
     <ClInclude Include="ui\forms\ui_RemoteConnectionDialog.h">
       <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ui\RemoteConnectionDialog.h">
-      <Filter>Header Files\ui\custom_widgets</Filter>
-    </ClInclude>
-    <ClInclude Include="ServerThread.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -885,6 +888,9 @@
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="ui\RemoteConnectionDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ServerThread.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
   </ItemGroup>
