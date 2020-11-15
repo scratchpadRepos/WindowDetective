@@ -1,11 +1,6 @@
-﻿Build started 11/14/2020 1:56:28 PM.
-     1>Project "D:\sahil\dev\WindowDetective\src\hook\WD_Hook.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-     1>Link:
-         WD_Hook.vcxproj -> D:\sahil\dev\WindowDetective\src\\x64\Release\WD_Hook_x64_Release.dll
-     1>Done Building Project "D:\sahil\dev\WindowDetective\src\hook\WD_Hook.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.03
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     Creating library D:\sahil\dev\WindowDetective\src\\x64\Release\WD_Hook_x64_Release.lib and object D:\sahil\dev\WindowDetective\src\\x64\Release\WD_Hook_x64_Release.exp
+  Generating code
+  Finished generating code
+  WD_Hook.vcxproj -> D:\sahil\dev\WindowDetective\src\\x64\Release\WD_Hook_x64_Release.dll
